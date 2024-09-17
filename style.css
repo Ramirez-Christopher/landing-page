@@ -19,6 +19,39 @@ body {
   align-items: center;
 
 }
+.subheader{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+.sh-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+
+}
+.sh-right {
+  display: flex;
+  align-items: center;
+}
+.subheader-title{
+  font-size: 48px;
+  font-weight: 900;
+  flex-wrap: wrap;
+  color: #F9FAF8;
+  align-self: flex-start; /* Add this line */
+
+}
+.subheader-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
 .body {
   display: flex;
   flex:1;
