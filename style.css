@@ -22,7 +22,7 @@ body {
 .subheader{
   background-color: #1F2937;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
   padding-bottom: 50px;
   margin-bottom: 30px;
@@ -70,12 +70,38 @@ body {
   justify-content: center;
   align-items: center;
   gap: 52px;
+  margin-bottom: 30px;
 }
 
 .info {
   max-width: 200px;
 }
+.flex-quote{
+  background-color: #E5E7EB;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add some padding */
 
+}
+.quote-text{
+  font-size: 36px;
+  font-weight: 300; /* Add this line */
+  font-style: italic; /* Add this line */
+  color: #1F2937; /* Optional: Change text color */
+  max-width: 800px; /* Optional: Limit the width of the quote */
+}
+.quote-subtext {
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 10px; /* Add some space above the author name */
+  color: #1F2937; /* Optional: Change text color */
+  align-self: flex-start; /* Align to the left */
+  margin-left: auto; /* Push to the right */
+  margin-right: 550px; /* Adjust as needed */
+}
 .footer {
   display: flex;
   justify-content: center;
@@ -107,4 +133,6 @@ a {
 img {
   width: 100px;
   height: 100px;
+  border-style: double;
+  border: blue;
 }
